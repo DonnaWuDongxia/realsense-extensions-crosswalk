@@ -11,6 +11,7 @@
 #include "base/logging.h"
 #include "base/strings/sys_string_conversions.h"
 #include "realsense/common/win/common_utils.h"
+#include "third_party/libpxc/include/pxcfacemodule.h"
 
 namespace {
 

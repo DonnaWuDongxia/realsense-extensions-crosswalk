@@ -5,11 +5,12 @@ var OS = require('os');
 var Path = require('path');
 
 var RS_RUNTIME_URL_BASE =
-    'http://registrationcenter-download.intel.com/akdlm/irc_nas/8516/';
+    'http://registrationcenter-download.intel.com/akdlm/irc_nas/';
 var RS_RUNTIME_URL = RS_RUNTIME_URL_BASE +
-    'intel_rs_sdk_runtime_websetup_8.0.24.6528.exe';
+    //'8516/intel_rs_sdk_runtime_websetup_8.0.24.6528.exe';
+    '9078/intel_rs_sdk_runtime_websetup_10.0.26.0396.exe';
 var RS_LICENSE_URL = RS_RUNTIME_URL_BASE +
-    'Intel%20RealSense%20SDK%20RT%20EULA.rtf';
+    '8516/Intel%20RealSense%20SDK%20RT%20EULA.rtf';
 var FeatureNameMap = {
   'RS_R200_DEP': 'epv',
   'RS_R200_SP': 'scene_perception',
